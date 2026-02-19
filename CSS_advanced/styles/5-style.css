@@ -26,26 +26,24 @@
    Base document setup
 ================================= */
 
-/* Set base font size to 62.5% */
 html {
+  scroll-behavior: smooth;
   font-size: 62.5%;
 }
 
-/* Body styles */
 body {
   color: var(--text-color);
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
 }
 
-/* Anchor styles */
 a {
   color: var(--text-color);
 }
 
-/* =================================
-   Component styles
-================================= */
+.visually-hidden {
+  display: none;
+}
 
 .section-tagline {
   color: var(--color-primary);
@@ -54,10 +52,6 @@ a {
 .card-category {
   color: var(--color-primary);
 }
-
-/* =================================
-   Headings
-================================= */
 
 h1,
 h2,
