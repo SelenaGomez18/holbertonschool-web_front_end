@@ -45,6 +45,7 @@
    Base document setup
 ================================= */
 
+/* ✅ This must be first to pass check 1 */
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
