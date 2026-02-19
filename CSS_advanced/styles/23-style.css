@@ -10,9 +10,9 @@
   display: block;
 }
 
-/* SVG children inside social links */
-.social-link svg {
-  fill: var(--text-color);
+/* SVG children inside social links - hijo directo y !important para asegurar prioridad */
+.social-link > svg {
+  fill: var(--text-color) !important;
 }
 
 /* Optional: Hover effect for social links */
