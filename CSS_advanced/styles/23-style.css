@@ -1,0 +1,21 @@
+/* 23-style.css – Fixes for dark theme */
+
+/* Footer address styling */
+.footer-address {
+  color: var(--text-color);
+}
+
+/* Social links styling */
+.social-link {
+  display: block;
+}
+
+/* SVG children inside social links */
+.social-link svg {
+  fill: var(--text-color);
+}
+
+/* Optional: Hover effect for social links */
+.social-link:hover {
+  opacity: 0.8;
+}
