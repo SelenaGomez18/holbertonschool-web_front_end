@@ -1,12 +1,36 @@
-/* Define font family custom properties */
+/* Define color custom properties */
 :root {
+  --color-primary: #d73953;
+  --color-black: #090909;
+  --color-white: #ffffff;
+  --color-light-grey: #f3f3f3;
+  --color-dark-grey: #353535;
+  --text-color: var(--color-black);
+
+  /* Define font family custom properties */
   --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Set body font family */
+/* Set body color and font family */
 body {
+  color: var(--text-color);
   font-family: var(--font-family-base);
+}
+
+/* Set anchor color */
+a {
+  color: var(--text-color);
+}
+
+/* Set section-tagline color */
+.section-tagline {
+  color: var(--color-primary);
+}
+
+/* Set card-category color */
+.card-category {
+  color: var(--color-primary);
 }
 
 /* Set font family for all heading levels */
