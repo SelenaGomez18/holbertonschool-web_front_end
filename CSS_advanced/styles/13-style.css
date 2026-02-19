@@ -45,7 +45,6 @@
    Base document setup
 ================================= */
 
-/* ✅ This must be first to pass check 1 */
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -59,24 +58,21 @@ body {
   line-height: var(--line-height-base);
 }
 
-/* Anchor links only */
+/* Anchor pseudo-classes */
 a[href] {
   color: var(--text-color);
   text-decoration: none;
 }
 
-/* Visited state */
-a:visited {
+a[href]:visited {
   font-style: italic;
 }
 
-/* Hover state */
-a:hover {
+a[href]:hover {
   text-decoration: underline;
 }
 
-/* Active state */
-a:active {
+a[href]:active {
   background-color: var(--color-light-grey);
 }
 
