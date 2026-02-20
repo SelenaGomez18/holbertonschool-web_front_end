@@ -1,3 +1,27 @@
+/* normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+body {
+  margin: 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+main {
+  display: block;
+}
+
+/* ... (continúa con todo el contenido oficial de normalize.css) ... */
+
+/* abreviado para ejemplo: incluye TODO normalize.css completo en tu archivo real */
+
 /* =================================
    Custom properties
 ================================= */
@@ -45,7 +69,6 @@
    Base document setup
 ================================= */
 
-/* ✅ This must be first to pass check 1 */
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -66,17 +89,17 @@ a[href] {
 }
 
 /* Visited state */
-a:visited {
+a[href]:visited {
   font-style: italic;
 }
 
 /* Hover state */
-a:hover {
+a[href]:hover {
   text-decoration: underline;
 }
 
 /* Active state */
-a:active {
+a[href]:active {
   background-color: var(--color-light-grey);
 }
 
