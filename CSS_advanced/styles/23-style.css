@@ -10,12 +10,7 @@
   display: block;
 }
 
-/* SVG children inside social links - hijo directo y !important para asegurar prioridad */
-.social-link > svg {
-  fill: var(--text-color) !important;
-}
-
-/* Optional: Hover effect for social links */
-.social-link:hover {
-  opacity: 0.8;
+/* SVG children inside social links */
+.social-link svg {
+  fill: var(--text-color);
 }
